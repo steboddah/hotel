@@ -11,7 +11,7 @@ namespace Hotel
         static void Main(string[] args)
         {
             //declarando a classe
-            Hospedes[] vect = new Hospedes[10];
+            Hospedes[] vect = new hospedes[10];
 
            
             Console.WriteLine("Quartos  disponiveis para alugar:");//dados de usuario
@@ -29,7 +29,7 @@ namespace Hotel
                 string email = Console.ReadLine();
                 Console.WriteLine("Quarto");
                 int quarto = int.Parse(Console.ReadLine());
-                vect[quarto] = new Estudante(nome, email);
+                vect[quarto] = new Hospedes(nome, email);
             }
 
           
